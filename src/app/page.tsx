@@ -1,6 +1,9 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
+import Instructors from "@/components/Instructors";
 import TastimonialCard from "@/components/TastimonialCard";
+import UpComingWebinars from "@/components/UpComingWebinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import { div } from "framer-motion/client";
 
@@ -12,6 +15,9 @@ export default function Home() {
       <FeaturedCourses/>
       <WhyChooseUs/>
       <TastimonialCard/>
+      <UpComingWebinars/>
+      <Instructors/>
+      <Footer/>
     </main>
   );
 }
